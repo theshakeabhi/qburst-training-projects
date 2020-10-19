@@ -5,32 +5,33 @@
         <meta name="description" content="Udemy JS Calculator">
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <link href="style/calculatorStyle.css" rel="stylesheet" type="text/css">
+        <script src="script/calculatorScript.js"></script>
         <title> Calculator </title>
 
     </head>
 
     <body>
 
-        <h1>CALCULATOR</h1>
+        <h1>UDEMY <br> CALCULATOR</h1>
         <br>
         <form id="myForm" name="calc">
-            <input name="display"> <br>
-            <input type="button" value="0">
-            <input type="button" value="1">
-            <input type="button" value="2">
-            <input type="button" value="+"> <br>
-            <input type="button" value="3">
-            <input type="button" value="4">
-            <input type="button" value="5">
-            <input type="button" value="-"> <br>
-            <input type="button" value="6">
-            <input type="button" value="7">
-            <input type="button" value="8">
-            <input type="button" value="*"> <br>
-            <input type="button" value="9">
-            <input type="button" value="C">
-            <input type="button" value="=">
-            <input type="button" value=&#xF7>
+            <input name="display" id="answerSpace"> <br>
+            <input type="button" value="1" onclick="displayNum('1')">
+            <input type="button" value="2" onclick="displayNum('2')">
+            <input type="button" value="3" onclick="displayNum('3')">
+            <input type="button" value="+" id="a" onclick="displayNum('+')"> <br>
+            <input type="button" value="4" onclick="displayNum('4')">
+            <input type="button" value="5" onclick="displayNum('5')">
+            <input type="button" value="6" onclick="displayNum('6')">
+            <input type="button" value="-" id="s" onclick="displayNum('-')"> <br>         
+            <input type="button" value="7" onclick="displayNum('7')">
+            <input type="button" value="8" onclick="displayNum('8')">
+            <input type="button" value="9" onclick="displayNum('9')">
+            <input type="button" value="*" id="m" onclick="displayNum('*')"> <br>
+            <input type="button" value="0" onclick="displayNum('0')">
+            <input type="button" value="C" id="c" onclick="clr()">
+            <input type="button" value="=" id="e" onclick="solve()">
+            <input type="button" value=&#xF7 id="d" onclick="displayNum('/')">
 
     </body>
 </html>
