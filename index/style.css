@@ -1,0 +1,22 @@
+html{
+    background-color: beige;
+    font-family: "Fruktur"
+}
+h1{
+    text-align: center;
+}
+span{
+    color: red
+}
+
+li{
+    font-family: "Montserrat";
+    font-weight: bolder;
+    color: dimgray;
+}
+
+.selfpro{
+    margin: auto 5%;
+    padding: 1%;
+    background-color: bisque
+}
