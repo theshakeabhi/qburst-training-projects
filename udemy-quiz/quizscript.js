@@ -1,19 +1,19 @@
 var questions = [
     {
-      question: "Who invented JavaScript?",
-      choices: ["Douglas Crockford", "Sheryl Sandberg" ,"Brendan Eich"],
+      question: "Who invented Fire?",
+      choices: ["Homo Sapiens", "Homo Sapiens Sapiens" ,"I dont know"],
       correctAnswer: 2
     },
     {
-      question: "Which one of these is a JavaScript package manager?",
-      choices: [ "Node.js","TypeScript",  "npm"],
+      question: "Which one of these is a ~(~animal)?",
+      choices: [ "Plate", "Dog", "Glass"],
       
-      correctAnswer: 2
+      correctAnswer: 1
     },
     {
-      question: "Which tool can you use to ensure code quality?",
-      choices: ["Angular","jQuery","RequireJS","ESLint"],
-      correctAnswer: 3
+      question: "Which tool can you use to ensure unscrew a screw?",
+      choices: ["Screwpiler","Screw Driver","Hammer","You"],
+      correctAnswer: 1
     }
   ];
 
