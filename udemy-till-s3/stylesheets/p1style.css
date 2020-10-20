@@ -1,30 +1,29 @@
-html{
-    margin: 0 0;
+html {
+    margin: 0;
     width: 100%;
     height: 100%;
 }
 
-body{
+body {
     background-color: black;
 }
 
-.btn{
+.btn {
     background: black;
     display: block;
     margin: 0 auto;
 }
 
-.jumbotron{
+.jumbotron {
     background-color: green;
     margin: 10% 25%;
 }
 
-h1{
+h1 {
     text-align: center;
 }
 
-p{
+p {
     text-align: center;
     margin: 1%;
 }
-

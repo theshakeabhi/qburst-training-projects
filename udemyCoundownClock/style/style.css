@@ -21,15 +21,14 @@ h1 {
     font-size: 55px;
 }
 
-
-#clockdiv > div {
+#clockdiv>div {
     padding: 50px;
     border-radius: 10px;
     background: rgb(4, 118, 146);
     display: inline-block;
 }
 
-#clockdiv div > span {
+#clockdiv div>span {
     padding: 65px;
     border-radius: 5px;
     background: black;
@@ -40,6 +39,7 @@ h1 {
     padding-top: 5px;
     font-size: 25px;
 }
+
 
 /* Time Zone */
 
